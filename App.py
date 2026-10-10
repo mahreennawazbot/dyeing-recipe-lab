@@ -85,19 +85,32 @@ with st.sidebar:
             "Learning Corner",
         ],
     )
-    st.markdown("---")
-    
-st.markdown("""
-<div style="margin-top: 8px; padding: 14px;
-            background: #1e5554; border-radius: 10px;
-            line-height: 1.8;">
-    <div style="font-size: 12px;">PROJECT CREATED BY</div>
-    <div style="font-size: 18px; font-weight: bold;">
+   
+st.sidebar.markdown("---")
+
+st.sidebar.markdown("""
+<div style="
+    padding: 12px;
+    background-color: #1e5554;
+    border: 1px solid #3b7775;
+    border-radius: 10px;
+    line-height: 1.7;
+    color: #ffffff;
+">
+    <div style="font-size: 11px; color: #cde5e2;">
+        PROJECT CREATED BY
+    </div>
+    <div style="font-size: 17px; font-weight: bold; color: #ffffff;">
         Mahreen Nawaz
     </div>
-    <div>Roll Number: 25TE028</div>
+    <div style="font-size: 13px; color: #e8f4f2;">
+        Roll Number: 25TE028
+    </div>
 </div>
 """, unsafe_allow_html=True)
+
+    
+
 
 
 st.markdown("""
