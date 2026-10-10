@@ -86,7 +86,19 @@ with st.sidebar:
         ],
     )
     st.markdown("---")
-    st.caption("A learning tool for textile students.")
+    
+st.markdown("""
+<div style="margin-top: 8px; padding: 14px;
+            background: #1e5554; border-radius: 10px;
+            line-height: 1.8;">
+    <div style="font-size: 12px;">PROJECT CREATED BY</div>
+    <div style="font-size: 18px; font-weight: bold;">
+        Mahreen Nawaz
+    </div>
+    <div>Roll Number: 25TE028</div>
+</div>
+""", unsafe_allow_html=True)
+
 
 st.markdown("""
 <div class="hero">
